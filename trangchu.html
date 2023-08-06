@@ -48,15 +48,22 @@
                 display: none;
                 background-color: #ff4848;
                 float: right;
-                padding: 19px 16px;
                 text-align: center;
                 overflow: auto;
                 text-decoration: none;
                 list-style-type: none;
             }
 
-            #tdh3 :hover {
+            .tdh3 button {
+                color: yellow;
                 background-color: #ff4848;
+                width: 60px;
+                height: 60px;
+                border: #ff4848;
+                font-size: 24px;
+            }
+            .tdh3 :hover {
+                background-color: red;
             }
             @media (max-width:750px) {
                 .tdh4 {
@@ -119,6 +126,13 @@
 
             #body2 {
                 text-align: center;
+                width: 50%;
+                margin: auto;
+                border: solid black 1px;
+                overflow-x: scroll;
+                overflow-y:hidden;
+                white-space: nowrap;
+                scroll-snap-type: x mandatory;
             }
 
             #body2 div :hover {
